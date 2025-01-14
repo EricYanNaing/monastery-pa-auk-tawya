@@ -28,8 +28,11 @@ const toggleLanguage = () => {
           <router-link to="/sayadaw-bio" class="nav-link">{{
             t("nav.monks")
           }}</router-link>
-          <router-link to="/about" class="nav-link">{{
+          <router-link to="/monastery" class="nav-link">{{
             t("nav.about")
+          }}</router-link>
+           <router-link to="/donator" class="nav-link">{{
+            t("nav.donator")
           }}</router-link>
           <router-link to="/contact" class="nav-link">{{
             t("nav.contact")

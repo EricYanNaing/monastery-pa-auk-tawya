@@ -6,6 +6,7 @@ const messages = {
       home: "Home",
       monks: "Sayadaw's Biography",
       about: "About Monastery",
+      donator: "Donator List",
       contact: "Contact",
     },
     home: {
@@ -118,6 +119,7 @@ const messages = {
       home: "Home",
       monks: "ဆရာတော်ဘုရားကြီး အတ္ထုပ္ပတ္တိ",
       about: "ဘုန်းကြီးကျောင်း အကြောင်း",
+      donator : "အလှူရှင်စာရင်း",
       contact: "ဆက်သွယ်ရန်",
     },
     home: {

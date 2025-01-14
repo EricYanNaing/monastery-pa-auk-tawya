@@ -1,8 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Monk from '../views/Sayadaw_bio.vue'
-// import About from '../views/About.vue'
-// import Contact from '../views/Contact.vue'
+import Monastery from '../views/Monastery.vue'
+import Donator from '../views/Donator.vue'
+import Contact from '../views/Contact.vue'
 
 const routes = [
   {
@@ -15,16 +16,21 @@ const routes = [
     name: 'Monks',
     component: Monk
   },
-  // {
-  //   path: '/about',
-  //   name: 'About',
-  //   component: About
-  // },
-  // {
-  //   path: '/contact',
-  //   name: 'Contact',
-  //   component: Contact
-  // }
+  {
+    path: '/donator',
+    name: 'Donator',
+    component: Donator
+  },
+  {
+    path: '/monastery',
+    name: 'Monastery',
+    component: Monastery
+  },
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: Contact
+  }
 ]
 
 const router = createRouter({
