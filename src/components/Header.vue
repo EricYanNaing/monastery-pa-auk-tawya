@@ -25,7 +25,7 @@ const toggleLanguage = () => {
         <!-- Desktop Menu -->
         <div class="hidden md:flex items-center space-x-4">
           <router-link to="/" class="nav-link">{{ t("nav.home") }}</router-link>
-          <router-link to="/monks" class="nav-link">{{
+          <router-link to="/sayadaw-bio" class="nav-link">{{
             t("nav.monks")
           }}</router-link>
           <router-link to="/about" class="nav-link">{{
